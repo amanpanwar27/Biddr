@@ -5,6 +5,7 @@ import Comp2 from "../slidingcomps/comp2";
 import Comp3 from "../slidingcomps/comp3";
 import Comp4 from "../slidingcomps/Comp4";
 import { DesktopView } from "react-device-detector";
+import Login from "./Login";
 const Auth = () => {
   return (
     <>
@@ -19,7 +20,9 @@ const Auth = () => {
             </Carousel>
           </Slider>
         </DesktopView>
-        <Auths></Auths>
+        <Auths>
+          <Login />
+        </Auths>
       </AuthContainer>
     </>
   );
